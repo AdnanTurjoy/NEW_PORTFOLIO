@@ -27,6 +27,7 @@ const Portfolio = () => {
     setActive(index)
   }
 
+
   return (
     <div className="container" id="portfolio">
       <motion.div
@@ -71,19 +72,24 @@ const Portfolio = () => {
                 transition={{duration: 0.3 , ease: "easeInOut"}}
                 className='hoverLayer'
               >
-                  
-                <motion.a href='#'
+              
+                <motion.a href={work.github_link}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
+                 target="_blank"
+                 rel="noopener noreferrer"
                 >
                   <FiGithub />
                 </motion.a>
                   
-                <motion.a href='#'
+                <motion.a href={work.live_link}
+                 style={{  pointerEvents: work.live_link === "" ? "none" : "" }}
                 whileInView={{scale: [0,1]}}
                  whileHover={{scale: [1, 1.1]}}
                  transition={{duration: 0.3}}
+                 target="_blank"
+                 rel="noopener noreferrer"
                 >
                   <FiEye />
                 </motion.a>
@@ -92,25 +98,8 @@ const Portfolio = () => {
           )
         })}
       </motion.div>
-      <motion.div
-        initial={{x: 0 ,opacity: 0}}
-          whileInView={{ x: [250,0], opacity: 1 }}
-          transition={{duration: 1}}
-        className="talk"
-      >
-        <div className="talk_left">
-          <h3>so let's talk about <br /> <span>your next projects</span></h3>
-        </div>
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          transition={{duration: 0.3}}
-          className="talk_right">
-          <a href="#contact"
-          >
-            Contact Me
-          </a>
-        </motion.div>
-      </motion.div>
+      
+   
       
     </div>
   )

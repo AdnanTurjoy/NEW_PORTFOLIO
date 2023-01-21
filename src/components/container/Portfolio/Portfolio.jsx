@@ -79,6 +79,7 @@ const Portfolio = () => {
                  transition={{duration: 0.3}}
                  target="_blank"
                  rel="noopener noreferrer"
+            
                 >
                   <FiGithub />
                 </motion.a>

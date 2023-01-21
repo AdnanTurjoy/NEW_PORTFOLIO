@@ -12,6 +12,7 @@ import work6 from "./assets/wed.png";
 import work7 from "./assets/native.png";
 import work8 from "./assets/weather.png";
 import work9 from "./assets/bderp.png";
+import work10 from "./assets/fruto.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
@@ -86,6 +87,14 @@ export const finishes = [
 export const workImages = [
   {
     id: 1,
+    img: work10,
+    name: "Fruto-Pea",
+    live_link: "https://frutopea.vercel.app/",
+    github_link: "https://github.com/AdnanTurjoy/frutopea",
+    category: "web"
+  },
+  {
+    id: 2,
     img: work1,
     name: "Adnan Blogs",
     live_link: "https://adnan-blogs.vercel.app/",
@@ -93,7 +102,7 @@ export const workImages = [
     category: "web"
   },
   {
-    id: 2,
+    id: 3,
     img: work2,
     name: "Tech Mart",
     live_link: "https://tech-mart.netlify.app/",
@@ -101,7 +110,7 @@ export const workImages = [
     category: "web"
   },
   {
-    id: 3,
+    id: 4,
     img: work3,
     name: "The Treasure Chest",
     live_link: "https://adnanturjoy.github.io/the-treasure-chest",
@@ -109,7 +118,7 @@ export const workImages = [
     category: "design"
   },
   {
-    id: 4,
+    id: 5,
     img: work4,
     name: "REST API",
     live_link: "",
@@ -117,7 +126,7 @@ export const workImages = [
     category: "app"
   },
   {
-    id: 5,
+    id: 6,
     img: work5,
     name: "Grocery List",
     live_link: "https://grocery-list-adnan.netlify.app/",
@@ -125,7 +134,7 @@ export const workImages = [
     category: 'app'
   },
   {
-    id: 6,
+    id: 7,
     img: work6,
     name: "Too Young to Wed",
     live_link: "",
@@ -133,7 +142,7 @@ export const workImages = [
     category: "design"
   },
   {
-    id: 7,
+    id: 8,
     img: work7,
     name: "React Native Note",
     live_link: "https://adnan-react-native-notes.netlify.app/",
@@ -141,7 +150,7 @@ export const workImages = [
     category: "app"
   },
   {
-    id: 8,
+    id: 9,
     img: work8,
     name: "Weather App",
     live_link: "https://react-weather-at.netlify.app/",
@@ -149,7 +158,7 @@ export const workImages = [
     category: "web"
   },
   {
-    id: 9,
+    id: 10,
     img: work9,
     name: "Billing/shopping Address",
     live_link: "https://adnan-bd-erp.netlify.app/",

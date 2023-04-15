@@ -50,14 +50,14 @@ export const experiences = [
   {
     id: 1,
     year: "2022",
-    position: "Junior Web Developer",
-    company: "demo.xyz"
+    position: "CDP",
+    company: "Spring Rain"
   },
   {
-    di: 2,
-    year: "2022",
-    position: "Junior Web Developer",
-    company: "demo.xyz"
+    id: 2,
+    year: "2023",
+    position: "Software Engineer",
+    company: "Business Accelerate Bangladesh LTD"
   },
   {
     id: 3,

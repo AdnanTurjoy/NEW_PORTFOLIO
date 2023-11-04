@@ -34,7 +34,8 @@ const About = () => {
           transition={{ duration: 1 }}
         >
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae at rem, tenetur ad ipsa sequi, optio eius laudantium vero minus maxime laborum est et nemo consequatur nostrum distinctio sed, nulla doloribus officiis ea eligendi explicabo.</p>
+          <p>I am a passionate and results-driven professional with a background in IT industry. Throughout my career, I have been dedicated to delivering excellence and driving meaningful impact in every project I undertake.With a strong foundation in Frontend, I strive to stay at the forefront of industry trends and technologies, continuously expanding my knowledge to solve complex challenges.
+In addition to my expertise in frontend technologies, I also possess knowledge and hands-on experience in Node.js and Spring Boot, enabling me to develop robust and efficient backend solutions</p>
           {bios.map(bio => {
             return (
               <div className="bio" key={bio.id}>
